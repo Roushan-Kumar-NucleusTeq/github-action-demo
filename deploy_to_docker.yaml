@@ -1,0 +1,13 @@
+name: Deploy to DockerHub
+on:
+  push:
+    branches:
+    - main
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+    - run: "hyy my name is madhur"
+    - run: "hyy my name is roushan"
+    - run: ls
+    - run: pwd
